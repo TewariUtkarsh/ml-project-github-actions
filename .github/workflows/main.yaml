@@ -81,7 +81,10 @@ jobs:
           # For more information look at https://devcenter.heroku.com/articles/process-model
           process_type: web
           
-   
+      - name: Build the Docker image
+        run: docker build -t tewariutkarsh22/first_project:latest
+
+
       - name: Generate Deployment Package
         run: zip -r deploy.zip *
       
