@@ -82,7 +82,7 @@ jobs:
           process_type: web
           
       - name: Build the Docker image
-        run: docker build -t tewariutkarsh22/first_project:latest
+        run: docker build -t tewariutkarsh22/first_project -f Dockerfile .
 
 
       - name: Generate Deployment Package
