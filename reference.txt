@@ -1,0 +1,25 @@
+## Cheat Sheet for conda:
+https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index
+
+## Update git
+git update-git-for-windows; git update depriciated
+
+## To copy files from git to our system for the first time to load the project.
+git clone https://github.com/TewariUtkarsh/machine_learning_project.git; 
+
+## To bring the new or updated file which our not available on our system from GitHub
+git pull
+
+## Open VS Code
+code .
+
+## To see the log of commits
+git log
+
+## Select python interpreter in VS Code
+(Ctrl + Shift + P)
+
+##  Creating a conda vir env with python
+-p: Creates a virtual env folder in same dir as the project 
+-n: Creates a virtual env folder where our main dir where anaconda is present/installed
+
