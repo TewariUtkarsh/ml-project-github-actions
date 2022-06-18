@@ -1,3 +1,7 @@
+# My project
+reference.txt
+.github/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
